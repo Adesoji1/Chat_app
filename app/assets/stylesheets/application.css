@@ -1,0 +1,70 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+  
+ 
+
+
+/* General styles for the profile page */
+/* General styles for the profile page */
+body {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Default font */
+}
+
+.profile-details {
+    padding: 20px;
+    border: 1px solid #6c757d; /* Darker border for dark theme */
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for dark theme */
+    background-color: #495057; /* Dark gray background for the box */
+}
+
+/* Styles for the user avatar */
+.user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    border: 2px solid #007BFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar-section {
+    text-align: center;
+}
+
+/* Add some styles for buttons to make them stand out */
+.btn {
+    background-color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0056b3; /* Darken the button color on hover */
+    }
+}
+
+
+
